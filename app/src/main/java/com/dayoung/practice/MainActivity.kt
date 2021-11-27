@@ -16,5 +16,35 @@ class MainActivity : AppCompatActivity() {
             var intent = Intent(this, ParcActivity::class.java)
             startActivity(intent)
         }
+
+        val image2 = findViewById<ImageView>(R.id.parcImage2)
+        image2.setOnClickListener {
+            var intent = Intent(this, ParcActivity2::class.java)
+            startActivity(intent)
+        }
+
+        val image3 = findViewById<ImageView>(R.id.parcImage3)
+        image3.setOnClickListener {
+            var intent = Intent(this, ParcActivity3::class.java)
+            startActivity(intent)
+        }
+
+        val image4 = findViewById<ImageView>(R.id.parcImage4)
+        image4.setOnClickListener {
+            var intent = Intent(this, ParcActivity4::class.java)
+            startActivity(intent)
+        }
+
+        val image5 = findViewById<ImageView>(R.id.parcImage5)
+        image5.setOnClickListener {
+            var intent = Intent(this, ParcActivity5::class.java)
+            startActivity(intent)
+        }
+
+        val image6 = findViewById<ImageView>(R.id.parcImage6)
+        image6.setOnClickListener {
+            var intent = Intent(this, ParcActivity6::class.java)
+            startActivity(intent)
+        }
     }
 }
